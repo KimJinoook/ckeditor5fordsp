@@ -32,6 +32,14 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
+import CKFinderUploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+import AutoSave from '@ckeditor/ckeditor5-autosave/src/autosave';
+import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
+import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
+import Font from '@ckeditor/ckeditor5-font/src/font';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -62,7 +70,14 @@ ClassicEditor.builtinPlugins = [
 	PictureEditing,
 	Table,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+	CKFinderUploadAdapter,
+	Alignment,
+	AutoSave,
+	Clipboard,
+	CodeBlock,
+	Font,
+	Highlight,
 ];
 
 // Editor configuration.
