@@ -99,8 +99,9 @@ ClassicEditor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
-			'undo',
-			'redo'
+			'font',
+			'fontSize'
+
 		]
 	},
 	image: {
@@ -120,6 +121,13 @@ ClassicEditor.defaultConfig = {
 			'mergeTableCells'
 		]
 	},
+	fontSize:{
+		options:[
+			'tiny',
+			'default',
+			'big'
+		]
+	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: 'ko'
 };

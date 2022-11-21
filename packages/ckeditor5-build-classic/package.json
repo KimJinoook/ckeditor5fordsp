@@ -34,10 +34,13 @@
     "@ckeditor/ckeditor5-ckbox": "^35.3.1",
     "@ckeditor/ckeditor5-ckfinder": "^35.3.1",
     "@ckeditor/ckeditor5-cloud-services": "^35.3.1",
+    "@ckeditor/ckeditor5-code-block": "^35.3.1",
     "@ckeditor/ckeditor5-easy-image": "^35.3.1",
     "@ckeditor/ckeditor5-editor-classic": "^35.3.1",
     "@ckeditor/ckeditor5-essentials": "^35.3.1",
+    "@ckeditor/ckeditor5-font": "^35.3.1",
     "@ckeditor/ckeditor5-heading": "^35.3.1",
+    "@ckeditor/ckeditor5-highlight": "^35.3.1",
     "@ckeditor/ckeditor5-image": "^35.3.1",
     "@ckeditor/ckeditor5-indent": "^35.3.1",
     "@ckeditor/ckeditor5-link": "^35.3.1",
@@ -49,6 +52,7 @@
     "@ckeditor/ckeditor5-typing": "^35.3.1"
   },
   "devDependencies": {
+    "@ckeditor/ckeditor5-alignment": "^35.3.1",
     "@ckeditor/ckeditor5-core": "^35.3.1",
     "@ckeditor/ckeditor5-dev-utils": "^31.0.0",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^31.0.0",
